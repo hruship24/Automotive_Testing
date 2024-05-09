@@ -1,0 +1,39 @@
+_________________________________________________
+
+KANBAN Board:
+
+To Do - Unprioritized:
+1. Implement User Registration UI
+2. Develop User Registration Backend Logic
+3. Design Login Page UI
+4. Implement Login Backend Logic
+5. Error Handling for Invalid Inputs
+6. Password Complexity Validation
+7. Email Validation
+8. Implement Forgot Password Functionality (Future Sprint)
+9. Design User Dashboard UI (Future Sprint)
+
+To Do - Prioritized:
+1. Develop User Registration Backend Logic
+2. Implement User Registration UI
+3. Implement Login Backend Logic
+4. Design Login Page UI
+5. Error Handling for Invalid Inputs
+6. Password Complexity Validation
+7. Email Validation
+
+Doing:
+- Plan: Develop User Registration Backend Logic
+- Develop: Implement User Registration UI
+- Test: Password Complexity Validation
+- Test: Email Validation
+
+Done - Pending Final Approval:
+1. Error Handling for Invalid Inputs
+2. Design Login Page UI
+
+Done - Done:
+1. Unique Username Constraint
+2. Error Handling for Invalid Inputs
+3. Unit Testing for Login
+________________________________________________

@@ -1,0 +1,38 @@
+Projects : Naveen - Student Loan Application
+
+Requirements : 
+
+1. Who are the intended users of the student loan application?
+   - : The intended users are students who are seeking financial assistance for their education.
+
+2. What specific tasks do you expect users to perform within the application?
+   - : Users should be able to register for an account, submit their personal and academic information, upload required documents, and track the status of their loan application.
+
+3. Can you describe the main features or functionalities you envision for the application?
+   - : The main features include user registration, data submission, application validation, communication with the bank, and status tracking.
+
+4. Are there any specific requirements for user authentication and security?
+   - : Yes, we require secure authentication mechanisms such as email verification to protect user accounts and sensitive information.
+
+5. Do you have any preferences or requirements for the user interface design?
+   - : We prefer a clean and intuitive user interface with easy navigation and clear instructions at each step of the application process.
+
+6. How do you plan to handle data submission and validation within the application?
+   - : Data submission should be straightforward with clear prompts and validation checks to ensure accurate and complete information is provided.
+
+7. Are there any external systems or databases the application needs to integrate with?
+   - : Yes, the application needs to integrate with bank systems for loan application processing and communication.
+
+8. What are your expectations regarding the application's performance and scalability?
+   - : We expect the application to respond quickly to user interactions and be able to handle a large number of concurrent users without performance degradation.
+
+9. Do you have any specific regulatory or compliance requirements that the application must meet?
+   - : Yes, the application must comply with data protection regulations and ensure the security and privacy of user data.
+
+10. How do you plan to handle ongoing maintenance and support for the application post-launch?
+    - : We have internal resources available for maintenance tasks and are open to considering external support if needed. Regular updates and bug fixes will be necessary to ensure the application's reliability and security.
+
+_________________________________________________________________________________________________
+
+
+

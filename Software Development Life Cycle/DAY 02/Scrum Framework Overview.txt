@@ -1,0 +1,46 @@
+Scrum Framework Overview
+______________________________________
+
+Roles:
+
+   - Product Owner: Represents stakeholders, defines product vision, and prioritizes backlog.
+   - Scrum Master: Facilitates Scrum events, removes impediments, and ensures team adherence to Scrum practices.
+   - Development Team: Self-organizing group responsible for delivering increments of the product.
+
+Responsibilities:
+
+   - Product Owner: Sets goals, decides what needs to be done next, and accepts/rejects work results.
+   - Scrum Master: Guides team in Scrum practices, shields team from distractions, and helps resolve conflicts.
+   - Development Team: Collaborates with Product Owner to turn product backlog items into increments of work.
+
+Artifacts:
+
+   1. Product Backlog: List of all desired work on the project, ordered by priority.
+   2. Sprint Backlog: Subset of the product backlog selected for the sprint.
+   3. Increment: Sum of all completed work from the sprint, potentially shippable.
+
+Ceremonies:
+
+   1. Sprint Planning: Plan the work to be performed in the sprint.
+   2. Daily Standup: Daily meeting to discuss progress, plans, and any impediments.
+   3. Sprint Review: Review the increment and gather feedback from stakeholders.
+   4. Sprint Retrospective: Reflect on the sprint and identify improvements for the next sprint.
+
+Example Sprint Task List:
+
+   1. UI Design:
+     - Design homepage layout.
+     - Create wireframes for event detail page.
+   2. Backend Development:
+     - Set up database structure for event management.
+     - Implement API endpoints for event creation and retrieval.
+   3. Testing:
+     - Write unit tests for backend APIs.
+     - Conduct manual testing of UI components.
+   4. Documentation:
+     - Document API usage for developers.
+     - Prepare user guide for event organizers.
+   5. Deployment:
+     - Deploy app to staging environment for testing.
+     - Coordinate user acceptance testing with stakeholders.
+_______________________________________________________________________________

@@ -1,0 +1,260 @@
+Assignment Description: Draw the basic network topologies (star, mesh, bus, ring, and hybrid). Label the components (such as nodes, routers, switches, hubs) and show how data flows in each topology.
+
+Star Topology
+In Star Topology, all the devices are connected to a single hub through a cable. This hub is the central node and all other nodes are connected to the central node. The hub can be passive in nature i.e., not an intelligent hub such as broadcasting devices, at the same time the hub can be intelligent known as an active hub. Active hubs have repeaters in them. Coaxial cables or RJ-45 cables are used to connect the computers.
+
+Advantages of Star Topology : 
+If N devices are connected to each other in a star topology, then the number of cables required to connect them is N. So, it is easy to set up.
+Each device requires only 1 port i.e. to connect to the hub, therefore the total number of ports required is N.
+It is Robust. If one link fails only that link will affect and not other than that.
+Easy to fault identification and fault isolation.
+Star topology is cost-effective as it uses inexpensive coaxial cable.
+
+Drawbacks of Star Topology : 
+If the concentrator (hub) on which the whole topology relies fails, the whole system will crash down.
+The cost of installation is high.
+Performance is based on the single concentrator i.e. hub.
+
+
+Mesh Topology : 
+
+In a mesh topology, every device is connected to another device via a particular channel.
+
+Advantages of Mesh Topology
+Communication is very fast between the nodes.
+Mesh Topology is robust.
+The fault is diagnosed easily. Data is reliable because data is transferred among the devices through dedicated channels or links.
+Provides security and privacy.
+
+Drawbacks of Mesh Topology
+Installation and configuration are difficult.
+The cost of cables is high as bulk wiring is required, hence suitable for less number of devices.
+The cost of maintenance is high.
+A common example of mesh topology is the internet backbone, where various internet service providers are connected to each other via dedicated channels. This topology is also used in military communication systems and aircraft navigation systems.
+
+Bus Topology:
+
+Bus Topology is a network type in which every computer and network device is connected to a single cable. It is bi-directional. It is a multi-point connection and a non-robust topology because if the backbone fails the topology crashes. In Bus Topology, various MAC (Media Access Control) protocols are followed by LAN ethernet connections like TDMA, Pure Aloha, CDMA, Slotted Aloha, etc.
+
+Advantages of Bus Topology
+If N devices are connected to each other in a bus topology, then the number of cables required to connect them is 1, known as backbone cable, and N drop lines are required.
+Coaxial or twisted pair cables are mainly used in bus-based networks that support up to 10 Mbps.
+The cost of the cable is less compared to other topologies, but it is used to build small networks.
+Bus topology is familiar technology as installation and troubleshooting techniques are well known.
+CSMA is the most common method for this type of topology.
+
+Drawbacks of  Bus Topology
+A bus topology is quite simpler, but still, it requires a lot of cabling.
+If the common cable fails, then the whole system will crash down.
+If the network traffic is heavy, it increases collisions in the network. To avoid this, various protocols are used in the MAC layer known as Pure Aloha, Slotted Aloha, CSMA/CD, etc.
+Adding new devices to the network would slow down networks.
+Security is very low.
+
+
+Ring Topology: 
+
+In a Ring Topology, it forms a ring connecting devices with exactly two neighboring devices. A number of repeaters are used for Ring topology with a large number of nodes, because if someone wants to send some data to the last node in the ring topology with 100 nodes, then the data will have to pass through 99 nodes to reach the 100th node. Hence to prevent data loss repeaters are used in the network.
+
+Advantages of Ring Topology
+The data transmission is high-speed.
+The possibility of collision is minimum in this type of topology.
+Cheap to install and expand.
+It is less costly than a star topology.
+
+Drawbacks of Ring Topology
+The failure of a single node in the network can cause the entire network to fail.
+Troubleshooting is difficult in this topology.
+The addition of stations in between or the removal of stations can disturb the whole topology.
+Less secure.
+
+Hybrid Topology: 
+
+This topological technology is the combination of all the various types of topologies. Hybrid Topology is used when the nodes are free to take any form. It means these can be individuals such as Ring or Star topology or can be a combination of various types of topologies.
+
+Advantages of Hybrid Topology
+
+This topology is very flexible.
+The size of the network can be easily expanded by adding new devices.
+
+Drawbacks of Hybrid Topology
+
+It is challenging to design the architecture of the Hybrid Network.
+Hubs used in this topology are very expensive.
+The infrastructure cost is very high as a hybrid network requires a lot of cabling and network devices
+
+A common example of a hybrid topology is a university campus network. The network may have a backbone of a star topology, with each building connected to the backbone through a switch or router. Within each building, there may be a bus or ring topology connecting the different rooms and offices. The wireless access points also create a mesh topology for wireless devices. This hybrid topology allows for efficient communication between different buildings while providing flexibility and redundancy within each building.
+____________________________________________________
+
+Q2)Create a Comic Strip: Data Packet's Journey
+Assignment Description: Create a comic strip that follows the journey of a data packet from one computer to another through the internet. Include elements like routers, switches, and firewalls, and depict how the packet navigates through these to reach its destination.
+
+->
+Title: The Data Packet's Adventure
+
+[Scene: A computer screen displays a user sending a data packet.]
+
+User: "Off you go, little packet! Make us proud!"
+
+[The data packet joyfully zooms through the cables in the local area network.]
+
+User: "Hey there! Where's your destination, little packet?"
+
+Data Packet: "I'm on my way to the router! Gotta navigate this network maze!"
+
+User: "Right this way! Safe travels!"
+
+[Inside the router, the data packet encounters a stern-looking firewall.]
+
+Router: "Halt! State your purpose, data packet."
+
+Firewall: "Hold on, let me check your credentials before you proceed."
+
+Data Packet: "You're good to go! Proceed safely on your journey."
+
+[The data packet ventures through the internet, passing through various routers.]
+
+Data Packet: "Whoa! Look at all these routes! I'm on an adventure!"
+
+[Finally, the data packet reaches its destination and enters the awaiting computer.]
+
+Data Packet: "I've arrived! Hello, destination computer!"
+
+Destination Computer: "Welcome, data packet! You've completed your journey."
+
+User: "Yes! The data packet has arrived safely! Great job!"
+
+Data Packet: "Phew! What a journey! I'm proud to be part of the internet's connections."
+____________________________________________________
+
+Q3)
+Design a Network for a Small Business
+Assignment Description: Draw a network design for a small business including a local area network (LAN), connection to the internet, and basic security measures (firewalls, antivirus). Label necessary hardware components and services (like cloud services).
+
+-> 
+Identify Requirements:
+
+Determine the number of users and devices on the network.
+Identify the type of internet connection available (e.g., DSL, cable, fiber).
+Design LAN Infrastructure:
+
+Install a central switch to connect all devices within the LAN.
+Deploy Ethernet cables to connect computers, printers, and other devices to the switch.
+Consider using Wi-Fi access points for wireless connectivity, if needed.
+Label Hardware Components:
+Central Switch: Connects all devices within the LAN.
+Wi-Fi Access Points: Provide wireless connectivity to devices.
+Connect to the Internet:
+
+Install a broadband modem provided by the Internet Service Provider (ISP).
+Connect the modem to a router/firewall device to manage internet traffic and provide network security.
+Implement Basic Security Measures:
+
+Install a firewall/router to protect the network from unauthorized access and cyber threats.
+Configure firewall rules to control inbound and outbound traffic.
+Install and regularly update antivirus software on all devices to prevent malware infections.
+Label Hardware Components:
+Broadband Modem: Connects to the ISP to access the internet.
+Router/Firewall: Manages internet traffic and provides network security.
+Label Services:
+Antivirus Software: Protects devices from malware infections.
+Additional Services:
+
+Consider implementing cloud services for data storage, backup, and collaboration (e.g., Google Drive, Microsoft Office 365).
+Set up a Virtual Private Network (VPN) for secure remote access to the network.
+Implement network monitoring tools to track network performance and security incidents.
+Label Services:
+Cloud Services: Provides data storage, backup, and collaboration tools.
+VPN: Allows secure remote access to the network.
+Network Monitoring Tools: Monitor network performance and security.
+________________________________________
+
+Q4)
+Illustrate the OSI Model
+Assignment Description: Create a detailed illustration of the OSI (Open Systems Interconnection) model. Depict and label each of the seven layers (from Physical up to Application) and provide examples of the protocols or actions that occur at each layer.
+
+-> 
+Physical Layer – Layer 1
+The lowest layer of the OSI reference model is the physical layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of bits. It is responsible for transmitting individual bits from one node to the next. When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.  
+
+Data Link Layer (DLL) – Layer 2
+The data link layer is responsible for the node-to-node delivery of the message. The main function of this layer is to make sure data transfer is error-free from one node to another, over the physical layer. When a packet arrives in a network, it is the responsibility of the DLL to transmit it to the Host using its MAC address. 
+The Data Link Layer is divided into two sublayers:
+Logical Link Control (LLC)
+Media Access Control (MAC)
+
+Network Layer – Layer 3
+The network layer works for the transmission of data from one host to the other located in different networks. It also takes care of packet routing i.e. selection of the shortest path to transmit the packet, from the number of routes available. The sender & receiver’s IP addresses are placed in the header by the network layer. 
+
+Transport Layer – Layer 4
+The transport layer provides services to the application layer and takes services from the network layer. The data in the transport layer is referred to as Segments. It is responsible for the end-to-end delivery of the complete message. The transport layer also provides the acknowledgment of the successful data transmission and re-transmits the data if an error is found.
+
+At the sender’s side: The transport layer receives the formatted data from the upper layers, performs Segmentation, and also implements Flow and error control to ensure proper data transmission. It also adds Source and Destination port numbers in its header and forwards the segmented data to the Network Layer.
+
+Session Layer – Layer 5
+This layer is responsible for the establishment of connection, maintenance of sessions, and authentication, and also ensures security.
+
+Functions of the Session Layer
+Session establishment, maintenance, and termination: The layer allows the two processes to establish, use, and terminate a connection.
+Synchronization: This layer allows a process to add checkpoints that are considered synchronization points in the data. These synchronization points help to identify the error so that the data is re-synchronized properly, and ends of the messages are not cut prematurely and data loss is avoided.
+Dialog Controller: The session layer allows two systems to start communication with each other in half-duplex or full-duplex
+
+
+Presentation Layer – Layer 6
+The presentation layer is also called the Translation layer. The data from the application layer is extracted here and manipulated as per the required format to transmit over the network. 
+
+Functions of the Presentation Layer
+Encryption/ Decryption: Data encryption translates the data into another form or code. The encrypted data is known as the ciphertext and the decrypted data is known as plain text. A key value is used for encrypting as well as decrypting data.
+Compression: Reduces the number of bits that need to be transmitted on the network.
+
+
+Application Layer – Layer 7
+At the very top of the OSI Reference Model stack of layers, we find the Application layer which is implemented by the network applications. These applications produce the data, which has to be transferred over the network. This layer also serves as a window for the application services to access the network and for displaying the received information to the user. 
+
+________________________________________
+
+Q5)
+The Evolution of Networking Technologies
+Assignment Description: Create a timeline illustration that showcases the evolution of networking technologies from the past to the present. Include milestones like the invention of Ethernet, the transition from IPv4 to IPv6, the introduction of WiFi, and the emergence of 5G.
+
+->
+
+Timeline Illustration:
+
+1960s:
+
+Milestone: Invention of Packet Switching by Paul Baran and Donald Davies
+Description: Packet switching, proposed independently by Baran and Davies, laid the foundation for modern computer networking by breaking data into packets for transmission across a network, leading to the creation of ARPANET.
+
+1970s:
+
+Milestone: Development of TCP/IP Protocol Suite
+Description: TCP/IP, developed by Vinton Cerf and Robert Kahn, became the foundational protocol suite for the internet, enabling communication between diverse networks and facilitating the creation of the ARPANET.
+
+1980s:
+
+Milestone: Invention of Ethernet by Bob Metcalfe at Xerox PARC
+Description: Ethernet revolutionized local area networking by enabling computers to communicate over a shared medium, initially supporting speeds of 10 Mbps and later evolving to faster speeds.
+
+1990s:
+
+Milestone: Commercialization of the World Wide Web (WWW) by Tim Berners-Lee
+Description: The World Wide Web brought internet access to the masses, making it easier to share and access information online through the use of hypertext markup language (HTML) and hypertext transfer protocol (HTTP).
+
+2000s:
+
+Milestone: Transition from IPv4 to IPv6
+Description: IPv6 was introduced to address the limitations of IPv4, providing a larger address space (128-bit) and improved security for the growing number of internet-connected devices, supporting the expansion of the internet.
+
+2010s:
+
+Milestone: Introduction of WiFi 6 (802.11ax)
+Description: WiFi 6 brought significant improvements in speed, capacity, and efficiency to wireless networks, supporting the increasing demand for high-bandwidth applications and devices such as streaming, gaming, and IoT.
+
+2020s:
+
+Milestone: Emergence of 5G Technology
+Description: 5G networks offer ultra-fast speeds, low latency, and massive connectivity, enabling innovative applications such as IoT, autonomous vehicles, remote surgery, and augmented reality, ushering in the era of the Internet of Everything (IoE).
+
+__________________________________________________
+
+

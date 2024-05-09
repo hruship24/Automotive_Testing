@@ -1,0 +1,62 @@
+Illustrate the typical memory hierarchy in a computer system, starting from registers down to secondary storage.
+ 
+Describe the difference between Level 1 (L1), Level 2 (L2), and Level 3 (L3) caches in terms of location, size, and speed.
+ 
+Explain what is meant by a cache miss and list the three main types of cache misses.
+ 
+Differentiate between data-level parallelism (DLP) and task-level parallelism (TLP).(with example)
+ 
+Task:
+ 
+Choose any two smartphones from different manufacturers.
+Compare their processors in terms of architecture (e.g., ARM), clock speed, number of cores, and energy efficiency.
+Discuss how these characteristics influence the smartphone’s performance and battery life..
+
+____________________________________
+Memory Hierarchy:
+Register is the Fastest memory directly accessible by the CPU, used to store data that is being actively processed.
+And then comes the L1 cache which is  Small, fast cache located on the CPU chip, serving as a buffer between registers and main memory.
+then L2 Cache is there which is Larger cache, typically located on the CPU chip or nearby, It provides additional buffering and faster access than main memory.
+L3 Cache is Even larger cache, offering further capacity at slightly slower speeds compared to L2 cache.
+And then comes a Main Memory i.e. RAM , Slower than cache but larger in capacity, used to store program data and instructions.
+And Lastly there is Secondary Storage (e.g., HDD, SSD), Larger but slower storage devices used for long-term data storage.
+____________________________________
+Difference between L1, L2 and L3 cache :
+L1 cache is the smallest and fastest, located closest to the CPU core. 
+L2 cache is larger and slightly slower, 
+while L3 cache is the largest and slower still.
+____________________________________
+Cache Miss:
+A cache miss occurs when the CPU requests data that is not found in the cache, requiring the data to be fetched from a slower memory level e.g., main memory. 
+The three main types of cache misses are:
+
+Compulsory Miss: Occurs when the cache is empty and a new block of data needs to be loaded into it for the first time.
+Capacity Miss: Happens when the cache is too small to hold all the required data, leading to some data being removed and replaced with new data.
+Conflict Miss: Arises when multiple memory blocks tries to access for the same cache location.
+____________________________________
+DLP vs. TLP:
+Data-Level Parallelism (DLP) involves simultaneous execution of operations on different data elements.
+Task-Level Parallelism (TLP) involves executing multiple tasks or threads simultaneously. Example: Multithreading in CPUs where different threads execute independently.
+____________________________________
+iPhone 13 (Apple A15 Bionic):
+
+Architecture: Custom ARM-based architecture designed by Apple.
+Number of Cores: Hexa-core CPU (2 high-performance cores, 4 energy-efficient cores).
+Energy Efficiency: Apple focuses heavily on optimizing energy efficiency with its processors. The combination of high-performance and energy-efficient cores allows for efficient handling of tasks, leading to good battery life.
+
+Samsung Galaxy S21 (Qualcomm Snapdragon 888):
+
+Architecture: ARM-based architecture developed by Qualcomm.
+Clock Speed: Up to 2.84 GHz.
+Number of Cores: Octa-core CPU (1 high-performance core, 3 performance cores, 4 efficiency cores).
+Energy Efficiency: Qualcomm Snapdragon processors are known for their balance between performance and power efficiency. The combination of performance and efficiency cores allows for handling tasks efficiently while optimizing battery life.
+
+
+Performance: Both processors offer strong performance suitable for various tasks like gaming, multimedia, and multitasking. The higher clock speed of the Snapdragon 888 may provide a slight edge in raw processing power, but Apple's optimization of hardware and software often results in smooth performance on the iPhone.
+Battery Life: Apple's focuse on energy efficiency, coupled with the balance of high-performance and energy-efficient cores, typically results in excellent battery life on iPhones. On the other hand, Snapdragon processors are also known for their efficiency, and the combination of performance and efficiency cores in the Snapdragon 888 contributes to good battery life. However, factors such as display technology, software optimization, and battery capacity also play significant roles in determining overall battery life.
+____________________________________
+
+
+
+
+

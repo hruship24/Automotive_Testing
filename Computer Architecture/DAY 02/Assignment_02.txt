@@ -1,0 +1,103 @@
+1. Type of software designed to run a computer's hardware and provide an environment for application software.
+   - Answer: Operating System (OS)
+
+2. Software that performs specific tasks for end-users, such as word processing or gaming.
+   - Answer: Application Software
+
+3. Software whose source code is freely available for anyone to use, modify, and distribute.
+   - Answer: Open Source Software
+
+4. Software distributed at no monetary cost, often with limited functionalities or support.
+   - Answer: Freeware
+
+5. Software designed to be accessed and used over the internet through a web browser.
+   - Answer: Web-based Software
+
+6. Software specifically developed for use on mobile devices such as smartphones and tablets.
+   - Answer: Mobile App
+
+7. Type of software distributed under exclusive legal rights and restrictions.
+   - Answer: Proprietary Software
+
+8. Software designed to be installed and run on personal computers or laptops.
+   - Answer: Desktop Software
+
+9. Software that requires a license fee or purchase for use, typically with restrictions on modification and distribution.
+   - Answer: Commercial Software
+
+10. Software distributed without charge, but source code may not necessarily be available for modification.
+    - Answer: Shareware
+
+11. Design pattern that separates an application into three main components: Model, View, Controller.
+    - Answer: Model-View-Controller (MVC)
+
+12. Architecture style where software components are designed to provide services to other components via a communication protocol over a network.
+    - Answer: Service-Oriented Architecture (SOA)
+
+13. An architectural style that emphasizes the separation of concerns and modular design.
+    - Answer: Modular Architecture
+
+14. An architectural pattern that decomposes a system into smaller, more manageable and testable parts.
+    - Answer: Microservices Architecture
+
+15. Architecture style that focuses on the interaction between software components and their dependencies.
+    - Answer: Dependency Injection
+
+16. An architectural style where software is composed of loosely coupled, independently deployable components.
+    - Answer: Component-Based Architecture
+_________________________________________________________________________________
+
+1. Architectural style that structures an application as a collection of loosely coupled, independently deployable services.
+   - Answer: Microservices Architecture
+
+2. Architectural pattern where components communicate through events and event handlers.
+   - Answer: Event-Driven Architecture
+
+3. Design approach for complex software systems that focuses on collaboration between technical experts and domain experts.
+   - Answer: Domain-Driven Design (DDD)
+
+4. A fundamental unit of Microservices Architecture that encapsulates a specific business capability and can be independently deployed and scaled.
+   - Answer: Microservice
+
+5. Architectural pattern where an application is built as a set of services that communicate through synchronous HTTP requests.
+   - Answer: RESTful Architecture
+
+6. A pattern where data and behavior are encapsulated in a single entity within a domain model.
+   - Answer: Entity-Component-System (ECS) or Entity Object Pattern
+
+7. A pattern where services within a Microservices Architecture are organized based on business capabilities.
+   - Answer: Business Capability-Based Organization
+
+8. A pattern where complex systems are decomposed into smaller, more manageable and maintainable parts.
+   - Answer: Modular Architecture
+____________________________________________________________________________________
+
+1. Set of principles aimed at making software designs more understandable, flexible, and maintainable.
+   - Answer: Software Design Principles
+
+2. Principle that encourages minimizing duplication of code and logic.
+   - Answer: Don't Repeat Yourself (DRY) Principle
+
+3. Principle that advises keeping software designs as simple and straightforward as possible.
+   - Answer: Keep It Simple, Stupid (KISS) Principle
+
+4. Principle that focuses on ensuring that each class or module has only one reason to change.
+   - Answer: Single Responsibility Principle (SRP)
+
+5. Principle that encourages designing software to handle increased workload or data volume without major changes.
+   - Answer: Scalability Principle
+
+6. Principle that emphasizes breaking down complex software into smaller, more manageable parts.
+   - Answer: Divide and Conquer Principle
+
+7. Principle that advocates for designing software in a way that it can easily adapt to changing requirements.
+   - Answer: Open-Closed Principle (OCP)
+
+8. Principle that promotes writing code that is easy to understand and maintain.
+   - Answer: Maintainability Principle
+
+9. Principle that suggests keeping software components independent of each other.
+   - Answer: Loose Coupling Principle
+
+10. Principle that emphasizes organizing software components into layers with specific responsibilities.
+    - Answer: Layered Architecture Principle

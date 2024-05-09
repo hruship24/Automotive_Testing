@@ -1,0 +1,35 @@
+Requirements : 
+
+Login page : Student Login Page 
+		1 -> Name of the Student (Username)
+		2 -> Mobile Number 
+		3 -> EmailId
+
+Home Page : Details form -> 
+				-> Name 
+				-> Address 
+				-> 10th School name / Percentage / upload marksheet
+				-> 12th College name / Percentage / upload marksheet
+				-> Degree/Course : College name , year of studying , percentage / upload marksheet 
+				-> College bonafide certificate
+				-> Tuition fee details.
+				-> Any additional expenses related to the course (e.g. accommodation, books, etc.)
+				-> Aadhar card number
+
+				-> Pan card 
+				-> Bank Details 
+
+		Financial Information:
+
+				Parent/Guardian's income details: This helps in assessing the financial need of the student.
+				Any other sources of income or financial support.
+				
+
+Application :
+		-> Create the application form for this to send it to the Bank 
+		-> Validate the application 
+		-> Categorize them based on there percentage criteria 
+		-> like 40 to 60 group A , 60 to 70 group B ,70 to 80 group C, 80 to 90 group D and 90 above group E
+		-> based on that their application will be treated for loan approval
+ ________________________________________________________________________________________________
+

@@ -1,0 +1,25 @@
+
+
+1. The type of memory that is directly accessible by the CPU: Cache
+2. The basic unit of computer storage, abbreviated as "b": Bit
+3. This type of CPU architecture is known for "Reduced" complexity: RISC (Reduced Instruction Set Computing)
+4. Is cache memory and RAM both the same: No
+5. The 'brain' of the computer where most calculations take place: CPU (Central Processing Unit)
+6. Non-volatile storage used to permanently store data: ROM (Read-Only Memory)
+7. The part of the computer responsible for executing instructions: CPU
+8. This type of data storage is volatile and used for fast access by the CPU: RAM (Random Access Memory)
+9. A collection of software that manages computer hardware resources: Operating System
+10. The process of increasing a CPU's clock speed beyond the manufacturer's specification: Overclocking
+11. A circuit within a computer that manages the data flow between the CPU and peripherals: Bus
+12. Measure of CPU performance, often in GHz: Clock Speed
+13. Fundamental software that controls the computer: Operating System
+14. Abbreviation for the central processing unit: CPU
+15. The main circuit board of a computer: Motherboard
+16. Type of memory that can be read and not written to: ROM (Read-Only Memory)
+17. Parallel processing architecture, stands for "Single Instruction, Multiple Data": SIMD
+18. A persistent storage technology that doesn't require power to retain data: SSD (Solid State Drive)
+19. High-speed storage mechanism that improves data access times for the processor: Cache
+20. Programming language considered close to machine code: Assembly language
+21. The space in a CPU where all arithmetic calculations are performed: ALU (Arithmetic Logic Unit)
+22. A smaller, faster type of memory that stores copies of the data from the most frequently used main memory locations: Cache
+23. Abbreviation for Random Access Memory: RAM

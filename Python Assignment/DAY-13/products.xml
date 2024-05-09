@@ -1,0 +1,17 @@
+<products>
+    <product>
+        <id>101</id>
+        <name>Laptop</name>
+        <price>120000</price>
+    </product>
+    <product>
+        <id>102</id>
+        <name>Smartphone</name>
+        <price>8000</price>
+    </product>
+    <product>
+        <id>103</id>
+        <name>Headphones</name>
+        <price>1500</price>
+    </product>
+</products>

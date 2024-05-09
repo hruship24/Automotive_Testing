@@ -1,0 +1,12 @@
+{
+    "101": {
+        "id": "101",
+        "name": "Hrushi",
+        "position": "Manager"
+    },
+    "102": {
+        "id": "102",
+        "name": "Pawar",
+        "position": "HR"
+    }
+}

@@ -1,0 +1,187 @@
+
+
+1. Start  
+
+2. Take Input Number (positive integer)
+
+3. Check if the input is valid : If number > 0 goto Step 4 else goto Step2  
+  
+4. Check if the number is even or odd
+   if number % 2 is 0 then Result = number * number else
+   Result = number * number * number
+   
+5. Output / Print Result (Show the result of the calculation.)
+
+6. End 
+
+
+Input : Three Numbers A , B C
+Output : Display Greater Number 
+
+Algorithm: 
+
+Step1 :  Start 
+Step2 :  Input A,B,C 
+Step3 :  If (A>B) and (A>C) then print “A is greater”. 
+	 Else if (B>A) and (B>C) then print “B is greater”. 
+	 Else print “C is greater”. 
+Step4 :  Stop
+
+______________________________________
+
+Original Algorithm for Calculating Prime Numbers
+To determine if a single number is prime:
+ 
+For each number n, check every integer i from 2 to n-1.
+If n is divisible by any i, it is not prime.
+If n is not divisible by any i, it is prime.
+To find all prime numbers up to n:
+ 
+Create an empty list to hold prime numbers.
+For each number m from 2 to n, use the above method to check if m is prime.
+If m is prime, add it to the list.
+Return the list of prime numbers.
+----------------------------
+ 
+Reverse String:
+ 
+Algorithm reverseString(s):
+    reversed_str = ""
+    for i from length(s)-1 to 0:
+        reversed_str += s[i]
+    return reversed_str
+
+Optimized : 
+Algorithm reverseString(s):
+    return s[::-1]
+
+ 
+--------------
+Checking Palindrome:
+ 
+Algorithm isPalindrome(s):
+    reversed_str = ""
+    for i from length(s)-1 to 0:
+        reversed_str += s[i]
+    return s == reversed_str
+
+Optimized : 
+Algorithm isPalindrome(s):
+    return s == s[::-1]
+
+ 
+--------------
+ 
+Algorithm isEven(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+Optimized :
+Algorithm isEven(n):
+    return n % 2 == 0
+
+----------------
+ 
+Algorithm isEmptyString(s):
+    if len(s) == 0:
+        return True
+    else:
+        return False
+
+Optimized :
+Algorithm isEmptyString(s):
+    return len(s) == 0
+
+------------------
+Algorithm isLeapYear(year):
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    else:
+        return False
+
+Optimized : 
+Algorithm isLeapYear(year):
+    return (year % 4 == 0) and ((year % 100 != 0) or (year % 400 == 0))
+
+________________________________________________________________________
+
+Input : nums = [3, 7, 2, 9, 4]
+Output : Greatest among all number present i.e. 9
+
+Algorithm :
+Step1 : Start
+Step2 : Initialize nums =[3,7,2,9,4]
+Step3 : max=nums[0]
+Step4 : Repeat step5 for (int i =0; i<5,i++)
+Step5 : if(nums[i] > max) then max = nums[i]
+Step6 : Print max
+Step7 : Stop
+
+_______________________________________
+Pseudocode : 
+two_sum(nums, target):
+    # Iterate through each element in the array
+    for i from 0 to length(nums) - 1:
+        # Iterate through the remaining elements to find the complement
+        for j from i + 1 to length(nums) - 1:
+            # If the current element and another element add up to the target, return their indices
+            if nums[i] + nums[j] == target:
+                return [i, j]
+____________________________________________
+
+Algorithm : Bubbble Sort 
+
+Step 1: Start
+
+Step 2: Initialize array , temp=0
+
+Step 3: for i from 0 to length_of_array-1 and increment i by 1
+
+Step 4: for j from 0 to length_of_array-i-1 increment j by 1
+
+Step 5: if arr[j]>arr[j+1];
+
+Step 6:temp=arr[j]
+
+       arr[j]=arr[j+1]
+
+       arr[j]=temp;
+
+Step 7: Print array
+
+Step 8: Stop
+
+______________________________________________
+
+Algorithm : Selection sort 
+
+Step1 : Start 
+
+Step2 : Repeat steps 3 , 4 and 5 for i from 1 to n-1
+
+Step3 : set j = i-1
+
+Step4 : Repeat until j becomes less than 0 or arr[j]
+	becomes less than or equal to temp
+	 a. Shift the value at index j to index j+1
+	 b. Decrement j by 1
+
+Step5 : Store temp at index j+1
+
+Step6 : Stop
+_______________________________________________
+
+
+
+
+
+
+

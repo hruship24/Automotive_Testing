@@ -1,0 +1,216 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|	    User Story Document           |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Project Name: Student Loan Application
+
+Product Owner: Naveen Kumar
+
+Scrum Master: Hrushikesh Pawar
+
+Date: 10th April 2024
+
+*******************************************************************
+
+User Story 1: User Registration
+_______________________________
+
+Story:
+
+ - As a prospective student eager to apply for a loan, I navigate to the registration page and effortlessly fill in my details. Upon submission, I expect to receive a verification email promptly, ensuring my account activation. The registration process should seamlessly guide me, providing clear feedback on any errors encountered while filling the form.
+Sprint 1:
+
+Tasks:
+
+1. UI Design:
+   - Design registration form UI layout and elements.
+   - Design UI components for name, email, and password fields.
+
+2. Backend Development:
+   - Develop backend logic for user registration.
+   - Implement user registration endpoint.
+
+3. Database Changes:
+   - Add table for storing user registration data.
+   - Update database schema to accommodate user accounts.
+
+4. Testing:
+   - Write unit tests for registration form validation.
+   - Test user registration endpoint for functionality and error handling.
+
+5. Documentation:
+   - Document user registration process for application users.
+   - Update API documentation for user registration endpoint.
+
+6. User Interface:
+   - Implement error handling for invalid registration inputs.
+   - Add UI elements for success and error messages.
+
+7. User Acceptance Testing (UAT):
+    - Stakeholders will register new accounts using various input data to ensure all fields accept valid information and reject invalid entries.
+    - Testers will verify the receipt of account verification emails and ensure successful account activation.
+    - UAT participants will check for appropriate error messages when attempting to register with existing email addresses or invalid credentials.
+
+Definition of Done:
+   - Registration form UI designed and implemented.
+   - User registration endpoint functioning correctly.
+   - Database schema updated to store user registration data.
+   - User registration process tested, documented, and validated through UAT.
+
+*****************************************************
+
+User Story 2: Data Submission
+_______________________________
+
+Story:
+
+  - Once registered, I log in to the application and proceed to submit my academic and financial data required for the loan application. I find the interface intuitive, allowing me to upload necessary documents effortlessly. The application should meticulously store all submitted information, assuring me that my data is securely captured for further processing.
+
+Sprint 2:
+
+Tasks:
+
+1. UI Design:
+   - Design UI forms for academic and financial data submission.
+   - Design UI elements for document uploads.
+
+2. Backend Development:
+   - Develop backend logic for handling data submission requests.
+   - Implement endpoints for submitting academic and financial data.
+
+3. Database Changes:
+   - Modify database schema to store submitted application data.
+   - Update database structure to accommodate submitted documents.
+
+4. Testing:
+   - Write unit tests for data submission endpoints.
+   - Test data submission process for functionality and data integrity.
+
+5. Documentation:
+   - Document data submission process for application users.
+   - Update API documentation for data submission endpoints.
+
+6. User Interface:
+   - Implement error handling for invalid data submissions.
+   - Add UI elements for success and error messages.
+
+7. User Acceptance Testing (UAT):
+   - Testers will submit academic and financial data through the application interface, confirming that all submitted information is accurately captured and stored.
+   - UAT participants will upload various documents required for the loan application, ensuring successful uploads and proper storage.
+   - Stakeholders will verify that the application handles data submission errors gracefully, providing clear instructions for correction.
+
+Definition of Done:
+   - UI forms for data submission designed and implemented.
+   - Data submission endpoints functioning correctly.
+   - Database updated to store submitted application data.
+   - Data submission process tested, documented, and validated through UAT.
+
+************************************************************
+
+User Story 3: Application Validation
+_____________________________________
+
+Story:
+
+  - After submitting my data, I anticipate the application to validate the information provided, ensuring its accuracy and completeness. Any errors or missing fields should be clearly highlighted, guiding me to rectify them promptly. I trust the application to meticulously check my submission, ensuring a smooth and error-free application process.
+
+Sprint 3:
+
+Tasks:
+
+1. Backend Development:
+   - Implement data validation logic for submitted application data.
+   - Set up error handling for invalid submissions.
+
+2. Testing:
+   - Test data validation logic for all submitted data fields.
+   - Test error handling for invalid submissions.
+
+3. Documentation:
+   - Document the application validation process.
+   - Update API documentation.
+
+4. User Acceptance Testing (UAT):
+   - Testers will input valid and invalid data into the application forms to verify that data validation rules are correctly enforced.
+   - UAT participants will intentionally submit incomplete or incorrect applications to assess the application's error handling capabilities.
+   - Stakeholders will confirm that the application provides informative feedback messages to guide users in correcting validation errors.
+
+Definition of Done:
+   - Data validation logic implemented and functioning correctly.
+   - Error handling for invalid submissions set up and tested.
+   - Application validation process documented for user reference.
+
+*********************************************************
+
+User Story 4: Communication with the Bank
+_____________________________________________
+
+Story:
+
+  - Upon completing my application, I rely on the application to seamlessly communicate with the bank's systems for further processing. I expect the data exchange to be swift and reliable, ensuring that my application progresses efficiently. The application should maintain robust communication channels, safeguarding against any disruptions that may arise during the process.
+
+Sprint 4:
+
+Tasks:
+
+1. Backend Development:
+   - Implement integration with bank's API for loan application processing.
+   - Set up endpoints for communication with the bank.
+
+2. Testing:
+   - Test communication with the bank for successful data transfer.
+   - Test error handling for failed communication.
+
+3. Documentation:
+   - Document the communication process with the bank.
+   - Update API documentation.
+
+4. User Acceptance Testing (UAT):
+   - Testers will initiate loan application processes and monitor communication between the application and the bank's API, ensuring seamless data transmission.
+   - UAT participants will simulate scenarios of network interruptions or API failures to assess the application's resilience in handling such situations.
+   - Stakeholders will review logs and reports to confirm the successful exchange of data between the application and the bank's systems.
+
+Definition of Done:
+   - Integration with bank's API implemented and functioning correctly.
+   - Communication with the bank tested and documented for user reference.
+
+***************************************************
+
+User Story 5: Status Tracking
+___________________________________
+
+Story:
+
+As I await a response from the bank, I frequently check the application's dashboard to track the status of my loan application. The dashboard should provide real-time updates, keeping me informed about any changes in my application's progress. I rely on the dashboard to provide clear and accurate information, allowing me to stay updated and informed throughout the application journey.
+
+Sprint 5:
+
+Tasks:
+
+1. UI Design:
+   - Design dashboard UI for displaying loan application status.
+   - Design UI elements for status updates and notifications.
+
+2. Backend Development:
+   - Implement logic for retrieving and updating application status.
+   - Set up endpoints for status tracking.
+
+3. Testing:
+   - Test dashboard UI for correct display of application status.
+   - Test status tracking endpoints for functionality and data accuracy.
+
+4. Documentation:
+   - Document the status tracking process.
+   - Update API documentation.
+
+5. User Acceptance Testing (UAT):
+   - Testers will access the application's dashboard to view the current status of their loan applications, confirming that the displayed information is accurate and up-to-date.
+   - UAT participants will simulate status updates by modifying application data and verifying that corresponding changes reflect accurately in the dashboard.
+   - Stakeholders will assess the usability and clarity of the status tracking interface, ensuring that users can easily interpret their application progress.
+
+Definition of Done:
+   - Dashboard UI for status tracking designed and implemented.
+   - Status tracking endpoints functioning correctly.
+   - Status tracking process tested, documented, and validated through UAT.
+
+***************************************************
