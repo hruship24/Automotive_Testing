@@ -1,0 +1,37 @@
+Group_2 :
+
+1 -> Hrushikesh 
+2 -> Harshvardhan
+3 -> Asha
+4 -> Shilpa
+5 -> Vinith
+6 -> Jayavardhini
+__________________________________________________________________________________________________________________________________________________________________________________________
+
+TYPES OF TESTING FOR SMARTPPHONE FEATURE (CAMERA) :
+----------------------------------------------------------
+
+Unit testing                  -> Operation of camera for taking pictures 
+
+Integration testing           -> Flash light should be active while taking a picture.
+
+Functional testing            -> Camera function in which we are able to switch in picture and video mode seamlessly with other core camera functionalities such as slow-motion and 					environment settings.
+
+End-to-end testing            -> Verify seamless transition between different camera modes (picture, video, slow-motion) with proper functioning of environment settings and flash 					activation for adequate lighting, resulting in captured media files matching the selected mode and settings.
+
+Performance testing           -> Evaluate the responsiveness and efficiency of the camera application, measuring factors such as response time for capturing pictures/videos, processing 				speed for image/video rendering, and resource consumption (CPU, memory usage) during operation. 
+
+Security testing              -> Verify the security features of the camera application, including data encryption mechanisms for stored media files and secure transmission protocols for 				sharing images/videos. Conducting penetration testing to identify potential vulnerabilities such as unauthorized access to camera functionalities or 					exposure of sensitive user data. Validate compliance with industry standards and regulations regarding data privacy and security.
+
+User acceptance testing (UAT) -> Engage real users to validate the camera application's functionality, usability, and overall satisfaction. Users will perform typical tasks such as 					capturing pictures/videos, switching between camera modes, adjusting settings, and sharing media files. Feedback from users will be collected to ensure that 				the application meets their needs and expectations, leading to improvements in user experience.
+
+Regression testing            -> Test existing functions such as picture and video capture, flash activation, and mode switching to ensure they continue to work correctly after updates or 				modifications to the application. Regression scenarios include:
+
+				1. Verify that picture capture functionality remains unaffected after a software update.
+				2. Test flash activation during picture capture to ensure it functions properly across different device models.
+				3. Validate mode switching between picture and video modes without impacting existing settings or stored media files.
+				4. Verify that environment settings (e.g., brightness, contrast) retain their configurations after software changes.
+				5. Test sharing functionality to confirm that media files can still be shared via various platforms (e.g., messaging apps, social media) after updates.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+

@@ -1,0 +1,206 @@
+Group_2 :
+
+1 -> Hrushikesh 
+2 -> Harshvardhan
+3 -> Asha
+4 -> Shilpa
+5 -> Vinith
+6 -> Jayavardhini
+
+_____________________________________________________________________________________________
+
+Assignment_2 : Unit Testing and Requirement Analysis
+_____________________________________________________________________________________________
+
+:->
+
+Requirement Analysis:
+
+1. Basic Arithmetic Operations: Support addition, subtraction, multiplication, and division.
+2. User-Friendly Interface: Intuitive interface with clear buttons for digits and operators.
+3. Error Handling: Provide informative error messages for division by zero or invalid input.
+4. Memory Functions: Optionally include memory recall, store, addition, and subtraction.
+5. History Feature: Optionally display previous calculations for review and reuse.
+6. Accuracy: Provide accurate results within hardware and language precision limits.
+7. Cross-Platform Compatibility: Compatible with desktops, mobiles, tablets, across operating systems.
+
+_____________________________________________________________________________________________
+
+Unit Test Cases 
+_______________________________________________________________
+
+Subtraction Test Cases:
+
+1. Positive Test Cases:
+   - ( 5 - 2 = 3 ) (Expected: Pass)
+   - ( -5 - (-2) = -3 ) (Expected: Pass)
+   - ( 5 - 6 = -1 ) (Expected: Pass)
+   - ( 5.5 - 2.5 = 3.0 ) (Expected: Pass)
+   - ( 10.75 - 4.25 = 6.5 ) (Expected: Pass)
+
+2. Negative Test Cases:
+   - ( 5 - 2 = 4 ) (Expected: Fail) -> o/p : 3
+   - ( -5 - (-2) = -5 ) (Expected: Fail) -> o/p : -3
+   - ( 5.5 - 2.5 = 3.5 ) (Expected: Fail) -> o/p : 3.0
+   - ( 10.75 - 4.25 = 6.0 ) (Expected: Pass) -> o/p : 6.5
+_______________________________________________________________
+
+Multiplication Test Cases:
+
+1. Positive Test Cases:
+   - ( 2 * 2 = 4 ) (Expected: Pass)
+   - ( 5 * 4 = 20 ) (Expected: Pass)
+   - ( 10 * 3 = 30 ) (Expected: Pass)
+   - ( 100 * 2 = 200 ) (Expected: Pass)
+   - ( 0 * 5 = 0 ) (Expected: Pass)
+   - ( -2 * (-2) = 4 ) (Expected: Pass)
+   - ( 2.5 * 1.5 = 3.75 ) (Expected: Pass)
+
+
+2. Negative Test Cases:
+   - ( 5 * 4 = 19 ) (Expected: Fail) -> o/p : 20
+   - ( 2 * 3 = 7 ) (Expected: Fail) -> o/p : 6
+   - ( 10 * 8 = 70 ) (Expected: Fail) -> o/p : 80
+   - ( 0 * 8 = 5 ) (Expected: Fail) -> o/p : 0
+   - ( -2 * (-2) = 5 ) (Expected: Fail) -> o/p : 4
+   - ( 2.5 * 1.5 = 3.95 ) (Expected: Fail) -> o/p : 3.75
+
+
+_______________________________________________________________
+
+Functional features of a calculator with subtraction and multiplication functions:
+_______________________________________________________________
+
+1. Basic arithmetic operations: Subtraction and multiplication.
+2. Order of operations: Follow standard mathematical order of operations (BODMAS/BIDMAS) for subtraction and multiplication.
+3. Decimal point support: Input and calculation with decimal fractions for both subtraction and multiplication.
+4. Clear functionality: Clear current input or entire calculation (C/AC) for both subtraction and multiplication.
+5. Sign change: Change the sign of a number from positive to negative or vice versa for subtraction.
+
+
+
+_______________________________________________________________
+
+Non-Functional testing 
+_______________________________________________________________
+
+Non-Functional Test Cases of a calculator:
+- Intuitive button layout?
+- Easy expression input/editing?
+- Clear, readable display?
+- Clear error messages for invalid inputs?
+Performance:
+- Speed of calculations?
+- Responsiveness with complex expressions?
+Reliability:
+- Stability (no crashes/freezes)?
+- Consistent results for same inputs?
+Security:
+- Protection of sensitive data (not typical)?
+- Unauthorized access prevention (if applicable)?
+Localization (Optional):
+- Language support (buttons, display)?
+- Handling of number formatting conventions?
+
+
+________________________________________________________________________________________
+
+Test Plan and Traceability matrix for Calculator ->  
+________________________________________________________________________________________
+
+
+Test Plan for Calculator Application
+
+1. Introduction
+   - This test plan outlines the testing approach for a basic calculator application.
+   - The calculator app is designed to perform subtraction and multiplication operations.
+   - The test plan focuses on ensuring accurate calculation, usability, and reliability of the application.
+
+2. Objectives
+   - Validate the correctness of subtraction and multiplication operations.
+   - Verify the ease of use and clarity of the user interface.
+   - Ensure the application functions reliably under normal usage conditions.
+
+3. Scope
+   - In-scope: Subtraction and multiplication functionalities.
+   - Out-of-scope: Advanced mathematical functions, division operation.
+   - Supported platforms: Desktop (Windows, macOS), Mobile (iOS, Android).
+
+4. Test Approach
+   - Functional Testing:
+     - Validate accuracy of subtraction and multiplication results.
+     - Test various input scenarios including positive, negative, and decimal numbers.
+   - Usability Testing:
+     - Evaluate clarity of button layout and ease of operation.
+     - Assess readability and presentation of calculation results.
+   - Reliability Testing:
+     - Ensure stable performance without crashes or freezes.
+     - Verify consistent behavior across different platforms.
+   
+5. Test Cases
+   - Functional Test Cases:
+     - Verify subtraction of positive integers.
+     - Validate multiplication of negative numbers.
+     - Test subtraction with decimal numbers.
+     - Evaluate multiplication of large numbers.
+   - Usability Test Cases:
+     - Assess clarity of subtraction and multiplication buttons.
+     - Verify readability of input and output display.
+   - Reliability Test Cases:
+     - Stress test the application with continuous usage.
+     - Validate stability under different network conditions (for mobile platforms).
+
+6. Sample Traceability Matrix
+------------------------------------------------------------------------------------------------------
+| Test Case ID | Requirement ID |                Description                           | Test Status |
+|--------------|----------------|------------------------------------------------------|-------------|
+| TC001        | REQ001         | Verify subtraction of positive integers.             |   Passed    |
+| TC002        | REQ002         | Validate multiplication of negative numbers.         |   Passed    |
+| TC003        | REQ003         | Test subtraction with decimal numbers.               |   Passed    |
+| TC004        | REQ004         | Evaluate multiplication of large numbers.            |   Passed    |
+| TC005        | USABILITY001   | Assess clarity of subtraction button.                |   Passed    |
+| TC006        | USABILITY002   | Verify readability of input display.                 |   Passed    |
+| TC007        | RELIABILITY001 | Stress test the application under heavy usage.       |   Passed    |
+| TC008        | RELIABILITY002 | Validate stability under varying network conditions. |   Passed    |
+======================================================================================================
+7. Conclusion
+   - This test plan outlines a simple and effective approach to testing a calculator application with subtraction and multiplication functionalities.
+   - By following the outlined test cases, we aim to ensure the accuracy, usability, and reliability of the calculator across different platforms.
+____________________________________________________________________________________________________________________________________________________
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Objective:
+
+Develop a calculator application that performs basic arithmetic operations accurately and efficiently.
+
+------------------------
+
+Limits:
+
+-> The calculator will not handle complex equations involving advanced mathematical functions like trigonometry or logarithms.
+-> It might not be able to store and operate on very large number. 
+-> The application will focus solely on providing simple arithmetic calculations.
+
+------------------------
+
+Range of Testing Data:
+
+-> Test various input scenarios including positive and negative integers, decimal numbers, and fractions.
+-> Validate boundary conditions such as minimum and maximum values for different operations.
+-> Evaluate usability with different input methods (keyboard, touchscreen) and screen sizes.
+-> Test across different platforms (desktop, mobile) and operating systems.
+
+--------------------------
+
+Test Methodology:
+
+Functionality Testing         ->  Validate addition, subtraction, multiplication, and division operations.
+Usability Testing             ->  Assess user interface design, button layout, and ease of use for different age groups.
+Performance Testing           ->  Measure response time for calculations and assess resource consumption.
+Reliability Testing           ->  Verify stability under normal usage conditions and handling of unexpected inputs.
+Compatibility Testing         ->  Ensure compatibility across various devices, browsers, and operating systems.
+User Acceptance Testing (UAT) ->  Gather feedback from target users to assess satisfaction and usability.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

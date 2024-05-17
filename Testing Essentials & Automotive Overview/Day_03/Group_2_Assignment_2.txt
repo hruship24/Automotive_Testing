@@ -1,0 +1,93 @@
+1 -> Hrushikesh 
+2 -> Harshvardhan
+3 -> Asha
+4 -> Shilpa
+5 -> Vinith
+6 -> Jayavardhini
+
+_____________________________________________________________________________________________
+
+Software Testing Life Cycle 
+-------------------------------------------------
+
+1. Requirement and Design Review 
+
+Requirements Analysis:
+
+ -> Define hardware requirements, including specifications for the processor, RAM, storage capacity, display size and resolution, battery capacity, and connectivity options (e.g., Wi-Fi,      Bluetooth, cellular).
+ -> Specify software requirements, including the operating system version, pre-installed applications (e.g., phone, messaging, camera), and compatibility with third-party apps and services.
+ -> Identify user experience (UX) requirements, such as navigation patterns, screen layouts, touch gestures, and accessibility features (e.g., screen readers, magnification).
+ -> Define performance requirements, including response time, app launch time, multitasking capabilities, and battery life expectations under typical usage scenarios.
+ -> Establish security requirements, including data encryption, device authentication mechanisms (e.g., PIN, fingerprint, facial recognition), and protection against malware and unauthorized access.
+ -> Consider regulatory requirements and industry standards relevant to smartphones, such as compliance with GDPR (General Data Protection Regulation), and accessibility standards.
+
+Design Review:
+
+ -> Evaluate the smartphone's physical design, including material quality, and aesthetics, to ensure a comfortable and appealing user experience.
+ -> Review the system architecture to ensure efficient utilization of hardware resources and support for future upgrades or modifications.
+ -> Validate the integration of hardware components (e.g., camera, sensors, speakers) with the software stack to optimize performance and functionality.
+ -> Assess the user interface (UI) design for consistency with platform guidelines (e.g., Material Design for Android), visual hierarchy, and brand identity.
+ -> Consider customization options for the user interface, such as theme support, home screen layouts, and widget placement, to accommodate user preferences.
+ -> Review power management features to optimize battery usage and implement energy-saving strategies, such as adaptive brightness, background app restrictions, and battery saver modes.
+ -> Evaluate durability and reliability considerations, including resistance to water, dust, and physical damage, to ensure longevity and robustness of the smartphone.
+_____________________________________________________________________________________________
+
+2. Test Planning
+-----------------------------------------
+
+1. Product Analysis:
+   -> Analyze the Android device's hardware specifications, including processor, RAM, storage capacity, display size, and battery capacity.
+   -> Review the device's software features, such as the Android operating system version, pre-installed applications, and customization options.
+   -> Evaluate the user experience design, including UI layout, navigation patterns, and accessibility features.
+
+2. Determine Testing Objectives:
+   -> Functional Testing
+   -> Usability Testing
+   -> Performance Testing
+   -> Security Testing
+   -> Compatibility Testing
+
+3. Identify Test Scenarios:
+   -> Functional Test Scenarios:
+     -> Verify call initiation, receiving, and ending functionalities.
+     -> Test SMS/MMS messaging, including sending, receiving, and multimedia messaging.
+     -> Validate internet browsing capabilities, including webpage rendering, navigation, and bookmarking.
+     -> Test camera functionalities, including capturing photos and videos, adjusting settings, and applying filters.
+     -> Verify multimedia playback, including audio and video playback, volume controls, and media streaming.
+
+   -> Usability Test Scenarios:
+     -> Assess touch screen responsiveness, gestures, and swiping actions.
+     -> Evaluate menu navigation, app switching, and multitasking capabilities.
+     -> Test accessibility features, including screen readers, magnification gestures, and high contrast mode.
+
+   -> Performance Test Scenarios:
+     -> Measure app launch time, response time for UI interactions, and overall system responsiveness.
+     -> Monitor CPU and memory usage during typical usage scenarios and resource->intensive tasks.
+     -> Evaluate battery life under different usage patterns and power-saving modes.
+
+   -> Security Test Scenarios:
+     -> Test device encryption, secure boot, and data protection mechanisms.
+     -> Identify and patch security vulnerabilities, such as unauthorized access, malware, and data breaches.
+
+   -> Compatibility Test Scenarios:
+     -> Ensure compatibility with different network carriers and SIM cards.
+     -> Test Bluetooth connectivity with various devices, including headsets, speakers, and wearable gadgets.
+     -> Validate Wi-Fi connectivity, including network discovery, authentication, and data transmission.
+     -> Verify compatibility with popular third-party applications from the Google Play Store.
+
+4. Resource Planning:
+   -> Allocate resources, including personnel, testing devices, testing tools, and testing environments.
+   -> Identify roles and responsibilities for team members involved in the testing process, such as testers, analysts, and stakeholders.
+
+5. Review and Finalize:
+   -> Review the identified test scenarios with stakeholders to validate completeness, accuracy, and relevance to the Android device.
+   -> Incorporate feedback and suggestions to refine test scenarios as needed, ensuring alignment with the device's specifications and user requirements.
+
+6. Define Test Deliverables:
+   -> Document the finalized test plan, including the list of identified test scenarios, testing objectives, resource allocation plan, and timeline.
+
+7. Define Test Schedule:
+   -> Establish a timeline for completing the product analysis phase, setting milestone dates for each task and deliverable.
+   -> Coordinate with stakeholders to ensure alignment with project timelines and deadlines, prioritizing critical testing activities to meet project milestones.
+_____________________________________________________________________________________________
+

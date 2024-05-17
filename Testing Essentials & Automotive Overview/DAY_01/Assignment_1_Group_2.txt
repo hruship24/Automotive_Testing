@@ -1,0 +1,64 @@
+Group_2 :
+
+1 -> Hrushikesh 
+2 -> Harshvardhan
+3 -> Asha
+4 -> Shilpa
+5 -> Vinith
+6 -> Jayavardhini
+________________________________________________________________________________
+
+Assignment -1 : Understanding of the factors of quality, reliability and performance for a pencil box. 
+________________________________________________________________________________
+
+:->
+
+Quality:
+1. Sustainable material usage.
+2. Smooth edges for safety.
+3. Odor-free construction.
+4. Vibrant, fade-resistant colors.
+5. Non-toxic materials.
+
+Reliability:
+1. Impact-resistant design.
+2. Secure locking mechanism.
+3. Reinforced corners for durability.
+4. Waterproof seal for protection.
+5. Rigorous durability testing.
+
+Performance:
+1. Customizable compartments.
+2. Quick access slot for essentials.
+3. Integrated pencil sharpener.
+4. Double-sided lid for organization.
+5. Multifunctional lid (ruler, whiteboard).
+
+___________________________________________________________________________________
+
+Requirement Gathering
+
+During the requirement gathering phase for the pencil box, consider capacity, organization, closure, durability, portability, material, shape, aesthetics, ergonomics, and cleanliness.
+
+
+Inward Requirements:
+
+1. Capacity: Specify the quantity of writing instruments the box should hold comfortably.
+2. Organization: Determine if compartments are necessary for different writing tools.
+3. Closure: Decide if a closure mechanism is needed to prevent spills.
+4. Sturdiness: Ensure materials can endure daily use.
+5. Optional Lining: Assess if a soft interior is necessary for protection.
+
+Outward Requirements:
+
+1. Size and Mobility: Ensure the box is portable for backpacks or purses.
+2. Weight: Consider the weight, especially for daily users.
+3. Material: Specify material based on durability, weight, and appearance.
+4. Shape: Choose a suitable shape based on user preferences.
+5. Aesthetics: Consider visual enhancements like color or patterns.
+6. Ease of Use: Ensure easy opening and closing, especially for children.
+7. Cleanliness: Assess if the box is easily washable when dirty.
+
+___________________________________________________________________________________
+
+
