@@ -1,0 +1,42 @@
+package com.capstone.hrushi.thirdeyesurveillance;
+
+public class Day_3_Tasks_Example {
+
+    //Task 1: Design a power management system that minimize battery usage when the vehicle is parked
+
+    public void enterSleepMode() {
+        // Example: Putting infotainment system into sleep mode
+        if (infotainmentSystem != null) infotainmentSystem.sleep();
+        // Example: Reducing power consumption in the Engine Control Unit (ECU)
+        if (ECU != null) {
+            ECU.enterLowPowerState();
+        }
+    }
+
+    public void optimizeBMS() {
+        // Enable power-saving mode in the Battery Management System
+        BMS.setPowerSavingMode(true);
+        // Continuously monitor battery health for optimal performance
+        BMS.monitorBatteryHealth();
+    }
+
+    public void smartPowerDistribution() {
+        // Allocate power to essential system like the security system
+        PowerManager.allocatePowerTo("securitySystem");
+        // Cut power to non-essential system like the infotainment system
+        PowerManager.cutPowerTo("infotainmentSystem");
+    }
+
+    public void onMotionDetected() {
+        // Wake up the security system when motion is detected
+        if (securitySystem != null) securitySystem.wakeUp();
+    }
+
+    public void monitorPowerUsage() {
+        // Collect power usage data from various system
+        PowerUsageData data = PowerAnalyzer.collectData();
+        //Analyse the collected data to identify trends and optimize power consumption
+        DataAnalyzer.analyze(data);
+    }
+
+}

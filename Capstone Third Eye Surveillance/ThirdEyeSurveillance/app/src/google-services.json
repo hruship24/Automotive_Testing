@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "603513715040",
+    "project_id": "thirdeyessurveillance-5bfcc",
+    "storage_bucket": "thirdeyessurveillance-5bfcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603513715040:android:60e71504a992b9dc45c605",
+        "android_client_info": {
+          "package_name": "com.capstone.hrushi.thirdeyesurveillance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVzxJw2ChGSTM8GwZukVWtwzbrphKTmHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

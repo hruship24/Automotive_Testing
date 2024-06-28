@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--</LinearLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<!-- Existing UI components -->
+<Button
+    android:id="@+id/startSurveillanceButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/start_surveillance"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"/>
+
+<Button
+    android:id="@+id/stopSurveillanceButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Stop Surveillance"
+    android:layout_below="@id/startSurveillanceButton"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"/>
+
+<TextView
+    android:id="@+id/statusTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Status: Idle"
+    android:layout_below="@id/stopSurveillanceButton"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"/>
+
+<ImageView
+    android:id="@+id/capturedImageView"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_below="@id/statusTextView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:contentDescription="Captured Image"/>
+
+<!-- New UI components -->
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/imageRecyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/capturedImageView"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"/>
+</RelativeLayout>
